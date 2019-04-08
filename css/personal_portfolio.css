@@ -1,0 +1,104 @@
+body{
+  background-color: #fff;
+}
+
+h1, h2, h3{
+    Text-align:center;
+    color:#190E47;
+    text-shadow: 2px 2px 4px rgba(0, 0 , 0, 0.5);
+
+}
+h4{
+  text-align: center;
+}
+
+p{
+    text-align: center;
+    font-weight: 400;
+}
+.card img{
+    width: 100px;
+    height:100px ;
+    align-content: center;
+}
+.summary-container img{
+  height: auto;
+  max-width: 100%;
+  width:225px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+  
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+footer{
+background: #c5ded7;
+text-align: center;
+    padding: 3em 0;
+    display: block;
+}
+.badge{
+  margin:6px;
+  padding: 12px;
+}
+.card {
+  border:solid rgba(126, 119, 126, 0.897);
+}
+/* screen size 500px wide or larger, following styles will be applied*/
+@media (min-width:500px){
+	.login {
+		width:500px;
+		height:323px;
+	}
+	input[type="text"],
+	input[type="password"] {
+		width: 430px;
+		font-size:20px;
+	}
+	.btn {
+		font-size:20px;
+		width:125px;
+		height:50px;
+		margin:45px 0 0 110px;
+	}
+	.forgot a {
+		margin: 0 0 0 35%;
+	}
+	.chk{
+		margin:5% 0 0 0;
+	}
+	.rem {
+		margin:5% 0 0 10px;
+	}
+}
+/*Screen size less than 500px wide, following styles will be applied */
+@media (max-width:499px){
+	.login {
+		width:300px;
+		height:297px;
+	}
+	input[type="text"],
+	input[type="password"] {
+		width: 430px;
+		font-size:20px;
+	}
+	.btn {
+		font-size:14px;
+		width:225px;
+		height:40px;
+		margin:15% 0 0 7%;
+	}
+	.forgot a {
+		margin: 0 0 0 25%;
+	}
+	.chk{
+		margin:6% 0 0 0;
+	}
+	.rem {
+		margin:6% 0 0 5%;
+	}
+}
