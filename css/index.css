@@ -1,6 +1,23 @@
 body{
   background-color: #fff;
 }
+.navbar-brand{
+	width:140px;
+	height:80px;
+	float :right;
+}
+.navbar-brand img{
+	width:140px;
+	height:80px;
+	border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+	border-bottom-left-radius: 50%;
+	
+	border:solid black 1px;
+}
+
+
 
 h1, h2, h3{
     Text-align:center;
@@ -35,6 +52,9 @@ p{
   border-bottom-right-radius: 50%;
   border-bottom-left-radius: 50%;
 }
+.summary-container img:hover{
+	width:240px;
+}
 footer{
 background: #c5ded7;
 text-align: center;
@@ -47,6 +67,11 @@ text-align: center;
 }
 .card {
   border:solid rgba(126, 119, 126, 0.897);
+}
+.card :hover{
+ opacity:1;
+ width :120px;
+ height: 120px;;
 }
 .nav-item, .btn img{
 	width:60px;
